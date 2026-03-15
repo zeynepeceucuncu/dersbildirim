@@ -2,7 +2,7 @@ name: Yulearn Bildirim Botu
 
 on:
   schedule:
-    - cron: '0 */5 * * *' # Her 5 saatte bir çalışır
+    - cron: '0 */7 * * *' # Her 5 saatte bir çalışır
   workflow_dispatch: # Actions sekmesinden manuel tetikleme butonu ekler
 
 jobs:
