@@ -7,13 +7,13 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Secrets'tan bilgiler çekiliyor
-USERNAME = os.environ.get("MOODLE_USERNAME")
-PASSWORD = os.environ.get("MOODLE_PASSWORD")
+USERNAME = os.environ.get("Onur_USERNAME")
+PASSWORD = os.environ.get("Onur_PASSWORD")
 EMAIL_SENDER = os.environ.get("EMAIL_SENDER")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
-EMAIL_RECEIVER = os.environ.get("EMAIL_RECEIVER2")
+EMAIL_RECEIVER = os.environ.get("EMAIL_Onur")
 
-COURSE_IDS = [45000, 46000] # BURAYA ARKADAŞININ DERS ID'LERİNİ YAZ
+COURSE_IDS = [47716] 
 STATE_FILE = "arkadas_state.json"
 
 def get_automated_session():
