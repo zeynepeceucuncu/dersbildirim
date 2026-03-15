@@ -2,7 +2,7 @@ name: Arkadas Otomatik Takip
 
 on:
   schedule:
-    - cron: '0 */5 * * *' # 5 saatte bir çalışır
+    - cron: '0 */7 * * *' # 5 saatte bir çalışır
   workflow_dispatch: 
 
 jobs:
