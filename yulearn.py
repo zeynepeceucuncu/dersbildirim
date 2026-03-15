@@ -114,9 +114,8 @@ def main():
     if changes_detected:
         send_email("Yulearn Yeni Materyal/Duyuru", email_body)
     else:
-        print("Herhangi bir yeni materyal veya duyuru yok.")
-        send_email("Yulearn Kontrolü: Yeni Materyal Yok", "Bot başarıyla uyandı ve Yulearn'ü kontrol etti. Şu an için İşletim Sistemleri dersine eklenen yeni bir dosya veya duyuru yok. 7/24 nöbetteyim! 🫡")
-
+        print("BINGO! Güncel kod kesinlikle okunuyor!")
+        send_email("Yulearn Kontrolü: Yeni Materyal Yok", "Bot başarıyla uyandı...")
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
         json.dump(state, f, ensure_ascii=False, indent=4)
 
