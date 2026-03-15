@@ -11,7 +11,7 @@ USERNAME = os.environ.get("MOODLE_USERNAME")
 PASSWORD = os.environ.get("MOODLE_PASSWORD")
 EMAIL_SENDER = os.environ.get("EMAIL_SENDER")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
-EMAIL_RECEIVER = os.environ.get("EMAIL_RECEIVER")
+EMAIL_RECEIVER = os.environ.get("EMAIL_RECEIVER2")
 
 COURSE_IDS = [45000, 46000] # BURAYA ARKADAŞININ DERS ID'LERİNİ YAZ
 STATE_FILE = "arkadas_state.json"
