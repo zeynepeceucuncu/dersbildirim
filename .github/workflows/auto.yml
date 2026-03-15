@@ -1,12 +1,12 @@
-name: Arkadas Otomatik Giris Sistemi
+name: Arkadas Otomatik Takip
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Arkadaşınkini 6 saatte bir çalıştır
-  workflow_dispatch: # Manuel test butonu
+    - cron: '0 */5 * * *' # 5 saatte bir çalışır
+  workflow_dispatch: 
 
 jobs:
-  auto-check:
+  auto-run:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -20,11 +20,11 @@ jobs:
       - name: Install Dependencies
         run: pip install requests beautifulsoup4
 
-      - name: Run Auto Login and Check
+      - name: Run Auto Script
         env:
           MOODLE_USERNAME: ${{ secrets.MOODLE_USERNAME }}
           MOODLE_PASSWORD: ${{ secrets.MOODLE_PASSWORD }}
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVER: ${{ secrets.ARKADAS_EMAIL }}
-        run: python yulearn_auto.py
+        run: python yulearn_arkadas.py
