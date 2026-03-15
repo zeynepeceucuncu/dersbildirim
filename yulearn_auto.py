@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import os
 
 # GitHub Secrets'tan gelecek bilgiler
-USERNAME = os.environ.get("MOODLE_USERNAME") # Okul numaran
+USERNAME = os.environ.get("EMAIL_RECEIVER") # Okul numaran
 PASSWORD = os.environ.get("MOODLE_PASSWORD") # Okul şifren
 
 def get_session_with_login():
