@@ -1,48 +1,51 @@
 import requests
 from bs4 import BeautifulSoup
+import json
 import os
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
-# GitHub Secrets'tan gelecek bilgiler
-USERNAME = os.environ.get("EMAIL_RECEIVER") # Okul numaran
-PASSWORD = os.environ.get("MOODLE_PASSWORD") # Okul şifren
+# Secrets'tan bilgiler çekiliyor
+USERNAME = os.environ.get("MOODLE_USERNAME")
+PASSWORD = os.environ.get("MOODLE_PASSWORD")
+EMAIL_SENDER = os.environ.get("EMAIL_SENDER")
+EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
+EMAIL_RECEIVER = os.environ.get("EMAIL_RECEIVER")
 
-def get_session_with_login():
-    login_url = "https://yulearn.yeditepe.edu.tr/login/index.php"
+COURSE_IDS = [45000, 46000] # BURAYA ARKADAŞININ DERS ID'LERİNİ YAZ
+STATE_FILE = "arkadas_state.json"
+
+def get_automated_session():
+    # Bulduğumuz o özel giriş linki
+    login_url = "https://yulearn.yeditepe.edu.tr/login/index.php?authmethod=moodle"
     session = requests.Session()
     
     try:
-        # 1. Giriş sayfasını açıp gizli "logintoken"ı almamız gerekir (Moodle güvenliği)
-        response = session.get(login_url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        login_token = soup.find('input', {'name': 'logintoken'})['value']
+        # 1. Sayfayı aç ve logintoken yakala
+        res = session.get(login_url)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        token = soup.find('input', {'name': 'logintoken'})['value']
         
-        # 2. Giriş bilgilerini gönder
+        # 2. Giriş yap
         payload = {
             'username': USERNAME,
             'password': PASSWORD,
-            'logintoken': login_token
+            'logintoken': token
         }
         
-        post_response = session.post(login_url, data=payload)
+        # Moodle bazen 'login' sonrası yönlendirme yapar, Session bunu otomatik tutar
+        post_res = session.post("https://yulearn.yeditepe.edu.tr/login/index.php", data=payload)
         
-        # Giriş başarılı mı kontrol et (URL değişmiş olmalı)
-        if "login" not in post_response.url:
-            print("--> Otomatik giriş başarılı!")
+        if "login" not in post_res.url:
+            print("--> Başarılı: Arkadaşının hesabı için yeni bilet alındı!")
             return session
         else:
-            print("--> Giriş başarısız! Bilgileri kontrol et.")
+            print("--> Hata: Otomatik giriş başarısız. Şifreyi kontrol et.")
             return None
-            
     except Exception as e:
-        print(f"Giriş hatası: {e}")
+        print(f"Otomasyon Hatası: {e}")
         return None
 
-# Test için çalıştıralım
-if __name__ == "__main__":
-    session = get_session_with_login()
-    if session:
-        # Örnek bir ders sayfasını çekmeye çalışalım
-        test_url = "https://yulearn.yeditepe.edu.tr/course/view.php?id=47716"
-        res = session.get(test_url)
-        if "İşletim Sistemleri" in res.text:
-            print("BAŞARILI: Ders içeriğine ulaşıldı!")
+# (Geri kalan send_email ve main fonksiyonları senin kodunla aynı, 
+# sadece get_course_materials içinde COOKIES yerine session.get kullanacağız)
