@@ -34,6 +34,7 @@ def get_course_materials(course_id):
         # Eğer site bizi giriş sayfasına atarsa biletin süresi dolmuş demektir
         if "login" in response.url:
             print(f"HATA: Biletin (Cookie) süresi dolmuş! Lütfen tarayıcıdan yeni bir MoodleSession al.")
+            send_email("🚨 Yulearn Bot Alarmı: Biletin Süresi Doldu!", " MoodleSession biletinin süresi dolmuş.\n\nMüsait olduğunda tarayıcıdan Yulearn'e girip yeni bileti GitHub Secrets (MOODLE_COOKIE) kısmına yapıştırabilir misin?\n\nYenisini ekleyene kadar nöbeti durduruyorum. 🫡")
             return None
 
         # Sayfanın HTML kodunu okuyoruz
@@ -115,7 +116,7 @@ def main():
         send_email("Yulearn Yeni Materyal/Duyuru", email_body)
     else:
         print("BINGO! Güncel kod kesinlikle okunuyor!")
-        send_email("Yulearn Kontrolü: Yeni Materyal Yok", "Bot başarıyla uyandı...")
+        send_email("Yulearn Kontrolü: Yeni Materyal Yok", "Yeni Materyal Yok...")
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
         json.dump(state, f, ensure_ascii=False, indent=4)
 
