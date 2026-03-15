@@ -15,6 +15,7 @@
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=334498": "Lec: CPU SchedulingFile",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=334690": "Sample questions-schedulingFile",
         "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=334359": "Lab: POSIX ThreadsFolder",
-        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334683": "Exercise IAssignment"
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334683": "Exercise IAssignment",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=335623": "Lec: Cooperating Threads and Race ConditionFile"
     }
 }
