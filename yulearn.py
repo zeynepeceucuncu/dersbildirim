@@ -91,7 +91,7 @@ def main():
     for user in USERS:
         print(f"\n--- {user['name']} için tarama başlıyor ---")
         user_changes = False
-        user_email_body = f"Merhaba {user['name']},\n\nYulearn sisteminde senin için güncellemeler var!\n\n"
+        user_email_body = f"Selamün Aleyküm :) {user['name']},\n\nYulearn sisteminde senin için güncellemeler var!\n\n"
 
         for course_id in user['courses']:
             print(f"Ders {course_id} kontrol ediliyor...")
@@ -118,7 +118,7 @@ def main():
         if user_changes:
             send_email("Yulearn Yeni Materyal Duyurusu", user_email_body, user['receiver'])
         else:
-            send_email("Yulearn Yeni Materyal Duyurusu", "yeni materyal yok" ,user['receiver'])
+            
             print(f"{user['name']} için yeni bir şey yok.")
 
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
