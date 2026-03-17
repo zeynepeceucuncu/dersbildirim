@@ -19,5 +19,120 @@
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=335623": "Lec: Cooperating Threads and Race ConditionFile",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=335909": "Lec: Implementing LocksFile",
         "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=335834": "Lab: Kernel Programming & CompilationFolder"
+    },
+    "46059": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320474": "AnnouncementsForum",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=325115": "CSE331.3 - Operating Systems Design / 2026 - SpringBigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333128": "Labwork 1Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334682": "Labwork 2Assignment"
+    },
+    "46062": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320477": "AnnouncementsForum",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=325118": "CSE344 Online Course LinkBigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=326094": "CE344 Spring2026 SyllabusFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=326095": "CSE344 Spring 2026 Project DescriptionFile",
+        "https://yulearn.yeditepe.edu.tr/mod/url/view.php?id=330753": "Project GroupsURL",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=334594": "Volere TemplateFile",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=335493": "Analysis Report SubmissionAssignment",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=326096": "LlosengCh01E2v4File",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330441": "LlosengCh04E2File",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=332631": "LlosengCh05E2v4File",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=334593": "LlosengCh08E2v4File"
+    },
+    "46064": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320479": "AnnouncementsForum",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=325120": "CSE348.1 - Database Management Systems / 2026 - SpringBigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=332606": "Lab GroupsFile"
+    },
+    "47717": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=322237": "DuyurularForum",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=323573": "CSE348.ALL - Spring 2026BigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/attendance/view.php?id=331508": "Attendance",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=332605": "Lab PlanFile"
+    },
+    "46078": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320493": "AnnouncementsForum",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=322157": "SyllabusFile",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=325134": "CSE354.2 - Automata Theory & Formal Languages / 2026 - SpringBigBlueButton"
+    },
+    "47719": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=322239": "DuyurularForum",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=323575": "CSE354.ALL - Spring 2026BigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=329524": "SyllabusFile"
+    },
+    "45212": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=319627": "AnnouncementsForum",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=324268": "HTR302.24 - History of Turkish Revolution II / 2026 - SpringBigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=332798": "HTR302 DERS İÇERİĞİFile"
+    },
+    "47011": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=321426": "AnnouncementsForum",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=322864": "EE334.1 - Digital Electronic Circuits / 2026 - SpringBigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330186": "EE334 Laboratory ScheduleFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330490": "EE334 Session1File",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=332900": "Session 1Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330488": "EE334 Session2File",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=332902": "Session 2Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330489": "EE334 Session3File",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=332904": "Session 3Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330491": "EE334 Session4File",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333354": "Session 4Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330492": "EE334 Session5File",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333356": "Session 5Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330493": "EE334 Session6File",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333357": "Session 6Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330494": "EE334 Session7File",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333359": "Session 7Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330495": "EE334 Session8File",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333360": "Session 8Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330496": "EE334 ProjectFile"
+    },
+    "47028": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=321443": "AnnouncementsForum",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=322881": "EE354.1 - Communication Systems / 2026 - SpringBigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333479": "EE354 Laboratory Assignment 1",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334595": "EE354 Laboratory Assignment 2"
+    },
+    "48538": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=330334": "DuyurularForum",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=330384": "EE354.ALL - Spring 2026BigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=332450": "EE354 Spring 2026 SyllabusFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=332451": "Q Function TableFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=332453": "Fourier Transform TableFile"
+    },
+    "47033": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=321448": "AnnouncementsForum",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=322244": "Syllabus for EE 372File",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=322886": "EE372.1 - Fundamentals of Power Systems / 2026 - SpringBigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=328938": "BasicsFile"
+    },
+    "47186": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=321601": "AnnouncementsForum",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=323042": "EE384.1 - Introduction to Control Systems / 2026 - SpringBigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/attendance/view.php?id=332750": "YoklamaAttendance",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=333898": "EE384 2026 Spring Lab ScheduleFile",
+        "https://yulearn.yeditepe.edu.tr/mod/url/view.php?id=333375": "Lab GroupsURL",
+        "https://yulearn.yeditepe.edu.tr/mod/url/view.php?id=333376": "Sec1_exp_variablesURL",
+        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=332748": "Lab ManuelsFolder",
+        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=332747": "Reaport TampletsFolder",
+        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=332749": "Lab FunctionsFolder",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333335": "PreLab_1Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334356": "InClass_1Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334856": "GroupLeader_R1Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334858": "Lab_R1Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334859": "PreLab_2Assignment"
+    },
+    "47697": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=322211": "DuyurularForum",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=322618": "EE384 Spring2026 SyllabusFile",
+        "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=323553": "EE384.ALL - Spring 2026BigBlueButton",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=333895": "EE384 2026 Spring Lab ScheduleFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=322619": "chapter-1File",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=322621": "Mathematical Models of SystemsFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=322622": "MathematicalModels ExamplesFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=322623": "State Variable ModelsFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=322624": "The Performance of Feedback Control SystemsFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=322625": "RootLocusFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=322626": "Frequency ResponseFile"
     }
 }
