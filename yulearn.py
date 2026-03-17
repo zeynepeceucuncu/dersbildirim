@@ -65,6 +65,7 @@ def get_course_materials(course_id, user_cookie):
             
             # 2. ÖZEL DURUM: Eğer bu bir 'Duyurular' forumu ise içine girip başlıkları tara
             if '/mod/forum/view.php' in href:
+                print(f"--> Duyuru panosuna giriliyor: {href}")
                 # Duyuru sayfasını da indiriyoruz
                 forum_res = requests.get(href, cookies=cookies)
                 forum_soup = BeautifulSoup(forum_res.text, 'html.parser')
