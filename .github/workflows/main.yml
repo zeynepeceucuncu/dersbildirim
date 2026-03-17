@@ -29,6 +29,8 @@ jobs:
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+          ONUR_COOKIE: ${{ secrets.ONUR_COOKIE }}
+          ONUR_EMAIL: ${{ secrets.ONUR_EMAIL }}
         run: python yulearn.py 
 
       - name: Commit and Push Changes
