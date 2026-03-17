@@ -17,13 +17,13 @@ USERS = [
         "name": "Zeynep",
         "cookie": os.environ.get("MOODLE_COOKIE"), # Senin biletin
         "receiver": os.environ.get("EMAIL_RECEIVER"), # Senin mailin
-        "courses": [47716] # Senin ders ID'lerin
+        "courses": [46059,47716,46062,46064,47717,46078,47719,45212] # Senin ders ID'lerin
     },
     {
         "name": "Onur",
         "cookie": os.environ.get("ONUR_COOKIE"), # Onur'un bileti
         "receiver": os.environ.get("ONUR_EMAIL"), # Onur'un maili
-        "courses": [45000, 46000] # Onur'un ders ID'leri (örnektir, düzeltmeyi unutma)
+        "courses": [47011, 47028,48538,47033,47186,47697] # Onur'un ders ID'leri (örnektir, düzeltmeyi unutma)
     }
 ]
 
