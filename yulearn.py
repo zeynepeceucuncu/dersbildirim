@@ -49,16 +49,32 @@ def get_course_materials(course_id, user_cookie):
     try:
         response = requests.get(url, cookies=cookies, allow_redirects=True)
         if "login" in response.url:
-            return "EXPIRED" # Bilet süresi dolmuş
+            return "EXPIRED"
         
         soup = BeautifulSoup(response.text, 'html.parser')
         items = {}
+        
         for a_tag in soup.find_all('a', href=True):
             href = a_tag['href']
+            
+            # 1. Klasik Dosyalar (PDF, Ödev, Slide)
             if '/mod/' in href and 'id=' in href:
                 item_name = a_tag.get_text(strip=True)
                 if item_name and "Mark as done" not in item_name:
                     items[href] = item_name
+            
+            # 2. ÖZEL DURUM: Eğer bu bir 'Duyurular' forumu ise içine girip başlıkları tara
+            if '/mod/forum/view.php' in href:
+                # Duyuru sayfasını da indiriyoruz
+                forum_res = requests.get(href, cookies=cookies)
+                forum_soup = BeautifulSoup(forum_res.text, 'html.parser')
+                # Duyuru başlıklarının linklerini bul (genelde discuss.php ile başlar)
+                for discussion in forum_soup.find_all('a', href=True):
+                    if 'discuss.php?d=' in discussion['href']:
+                        # Başına '📣' koyalım ki mailde duyuru olduğu belli olsun
+                        disc_title = "📣 DUYURU: " + discussion.get_text(strip=True)
+                        items[discussion['href']] = disc_title
+
         return items
     except Exception as e:
         print(f"Hata (Ders {course_id}): {e}")
