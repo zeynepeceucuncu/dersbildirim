@@ -19,7 +19,9 @@
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=335623": "Lec: Cooperating Threads and Race ConditionFile",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=335909": "Lec: Implementing LocksFile",
         "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=335834": "Lab: Kernel Programming & CompilationFolder",
-        "https://yulearn.yeditepe.edu.tr/mod/url/view.php?id=336051": "Lab: Kernel Programming & Compilation RecordingURL"
+        "https://yulearn.yeditepe.edu.tr/mod/url/view.php?id=336051": "Lab: Kernel Programming & Compilation RecordingURL",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=336518": "Lec: Semaphores and Classical IPC ProblemsFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=336519": "Sample questions-synchronizationFile"
     },
     "46059": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320474": "AnnouncementsForum",
@@ -128,7 +130,8 @@
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334356": "InClass_1Assignment",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334856": "GroupLeader_R1Assignment",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334858": "Lab_R1Assignment",
-        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334859": "PreLab_2Assignment"
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334859": "PreLab_2Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=336493": "InClass_2Assignment"
     },
     "47697": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=322211": "DuyurularForum",
