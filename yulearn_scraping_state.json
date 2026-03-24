@@ -4,6 +4,8 @@
         "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=323572": "CSE331.ALL - Spring 2026BigBlueButton",
         "https://yulearn.yeditepe.edu.tr/mod/attendance/view.php?id=327227": "Attendance",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=333514": "Lab Attendances & GradesFile",
+        "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22072": "📣 DUYURU: Project Groups",
+        "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22072&parent=24513": "📣 DUYURU: 24 Mar 2026",
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=336757": "Student DiscussionForum",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=327210": "COURSE SYLLABUSFile",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330694": "COURSE MECHANICSFile",
@@ -22,7 +24,9 @@
         "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=335834": "Lab: Kernel Programming & CompilationFolder",
         "https://yulearn.yeditepe.edu.tr/mod/url/view.php?id=336051": "Lab: Kernel Programming & Compilation RecordingURL",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=336518": "Lec: Semaphores and Classical IPC ProblemsFile",
-        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=336519": "Sample questions-synchronizationFile"
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=336519": "Sample questions-synchronizationFile",
+        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=336537": "Lab: Additional Kernel ResourcesFolder",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=336539": "Term Project: Phase 1Assignment"
     },
     "46059": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320474": "AnnouncementsForum",
