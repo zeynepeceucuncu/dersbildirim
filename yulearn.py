@@ -27,6 +27,15 @@ USERS = [
     }
 ]
 
+COURSE_NAMES = {
+    "47011": "334.1",
+    "47028": "354.1",
+    "48538": "354.All",
+    "47033": "372.1",
+    "47186": "384.1 ",
+    "47697": "384.All "
+}
+
 def send_email(subject, body, to_email):
     msg = MIMEMultipart()
     msg['From'] = EMAIL_SENDER
@@ -109,7 +118,8 @@ def main():
 
             if new_links and old_materials:
                 user_changes = True
-                user_email_body += f"--- DERS ID: {course_id} ---\n"
+                course_display_name = COURSE_NAMES.get(str(course_id), f"DERS ID: {course_id}")
+                user_email_body += f"--- {course_display_name} ---\n"
                 for link in new_links:
                     user_email_body += f"📌 YENİ: {materials[link]}\nLink: {link}\n\n"
             
