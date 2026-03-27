@@ -6,6 +6,8 @@
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=333514": "Lab Attendances & GradesFile",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22072": "📣 DUYURU: Project Groups",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22072&parent=24582": "📣 DUYURU: 27 Mar 2026",
+        "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22111": "📣 DUYURU: Phase 1 Demo",
+        "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22111&parent=24583": "📣 DUYURU: 27 Mar 2026",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22109": "📣 DUYURU: FAQ: Phase 1",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22109&parent=24580": "📣 DUYURU: 26 Mar 2026",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22094": "📣 DUYURU: Returning weight",
@@ -141,7 +143,10 @@
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334856": "GroupLeader_R1Assignment",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334858": "Lab_R1Assignment",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334859": "PreLab_2Assignment",
-        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=336493": "InClass_2Assignment"
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=336493": "InClass_2Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=337661": "Lab_R2Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=337662": "GroupLeader_R2Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=337663": "PreLab_3Assignment"
     },
     "47697": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=322211": "DuyurularForum",
