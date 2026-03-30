@@ -5,7 +5,7 @@
         "https://yulearn.yeditepe.edu.tr/mod/attendance/view.php?id=327227": "Attendance",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=333514": "Lab Attendances & GradesFile",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22072": "📣 DUYURU: Project Groups",
-        "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22072&parent=24595": "📣 DUYURU: 29 Mar 2026",
+        "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22072&parent=24604": "📣 DUYURU: 30 Mar 2026",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22111": "📣 DUYURU: Phase 1 Demo",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22111&parent=24583": "📣 DUYURU: 27 Mar 2026",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22109": "📣 DUYURU: FAQ: Phase 1",
@@ -32,7 +32,8 @@
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=336518": "Lec: Semaphores and Classical IPC ProblemsFile",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=336519": "Sample questions-synchronizationFile",
         "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=336537": "Lab: Additional Kernel ResourcesFolder",
-        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=336539": "Term Project: Phase 1Assignment"
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=336539": "Term Project: Phase 1Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=337751": "Lab: Linux SchedulerFolder"
     },
     "46059": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320474": "AnnouncementsForum",
@@ -95,6 +96,7 @@
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=321426": "AnnouncementsForum",
         "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=322864": "EE334.1 - Digital Electronic Circuits / 2026 - SpringBigBlueButton",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330186": "EE334 Laboratory ScheduleFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=338064": "ptm45File",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330490": "EE334 Session1File",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=332900": "Session 1Assignment",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330488": "EE334 Session2File",
@@ -118,7 +120,8 @@
         "https://yulearn.yeditepe.edu.tr/mod/bigbluebuttonbn/view.php?id=322881": "EE354.1 - Communication Systems / 2026 - SpringBigBlueButton",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333479": "EE354 Laboratory Assignment 1",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334595": "EE354 Laboratory Assignment 2",
-        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=336463": "EE354 Laboratory Assignment 3"
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=336463": "EE354 Laboratory Assignment 3",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=338152": "EE354 Lab. Assignment 4"
     },
     "48538": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=330334": "DuyurularForum",
