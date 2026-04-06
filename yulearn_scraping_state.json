@@ -34,7 +34,8 @@
         "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=336537": "Lab: Additional Kernel ResourcesFolder",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=336539": "Term Project: Phase 1Assignment",
         "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=337751": "Lab: Linux SchedulerFolder",
-        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=337752": "Lab: IPC, Shared Memory, PipesFolder"
+        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=337752": "Lab: IPC, Shared Memory, PipesFolder",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=339158": "Lec:DeadlocksFile"
     },
     "46059": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320474": "AnnouncementsForum",
@@ -110,7 +111,7 @@
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330492": "EE334 Session5File",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333356": "Session 5Assignment",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330493": "EE334 Session6File",
-        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333357": "Session 6Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/quiz/view.php?id=339178": "Session 6Quiz",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330494": "EE334 Session7File",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333359": "Session 7Assignment",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=330495": "EE334 Session8File",
