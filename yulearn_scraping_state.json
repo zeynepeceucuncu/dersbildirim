@@ -44,7 +44,8 @@
         "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=340306": "Lab: Linux Scheduler RecapFolder",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=340307": "Term Project: Phase 2Assignment",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341048": "Lec: Monitors, Condition Variables, Readers-WritersFile",
-        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=341067": "Lab: Condition VariablesFolder"
+        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=341067": "Lab: Condition VariablesFolder",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341113": "Lec: Memory Management -1File"
     },
     "46059": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320474": "AnnouncementsForum",
@@ -81,6 +82,14 @@
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=332606": "Lab GroupsFile",
         "https://yulearn.yeditepe.edu.tr/mod/quiz/view.php?id=339174": "Labwork 1 - Group AQuiz",
         "https://yulearn.yeditepe.edu.tr/mod/quiz/view.php?id=340096": "Labwork 1 - Group BQuiz",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341103": "Creating and Managing TablesFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341105": "Writing Basic SQL StatementsFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341107": "Restricting and Sorting DataFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341108": "Single -Row FunctionsFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341109": "Using Group FunctionsFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341110": "SubqueriesFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341111": "Displaying Data from Multiple TablesFile",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341112": "Inserting and Manipulating DataFile",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=336644": "SQL File"
     },
     "47717": {
