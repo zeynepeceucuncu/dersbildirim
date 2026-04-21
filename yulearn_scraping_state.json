@@ -43,7 +43,8 @@
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=340036": "Problem_Set_SemaphoresFile",
         "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=340306": "Lab: Linux Scheduler RecapFolder",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=340307": "Term Project: Phase 2Assignment",
-        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341048": "Lec: Monitors, Condition Variables, Readers-WritersFile"
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341048": "Lec: Monitors, Condition Variables, Readers-WritersFile",
+        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=341067": "Lab: Condition VariablesFolder"
     },
     "46059": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320474": "AnnouncementsForum",
@@ -51,7 +52,8 @@
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=333128": "Labwork 1Assignment",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=334682": "Labwork 2Assignment",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=338225": "Labwork 3Assignment",
-        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=339300": "Labwork 4Assignment"
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=339300": "Labwork 4Assignment",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=341097": "Labwork 5Assignment"
     },
     "46062": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320477": "AnnouncementsForum",
