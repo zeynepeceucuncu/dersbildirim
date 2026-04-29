@@ -1,5 +1,7 @@
 {
     "47716": {
+        "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22353": "📣 DUYURU: Lab Exam (05.05.2026 Tuesday @18:00)",
+        "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22353&parent=24861": "📣 DUYURU: 29 Apr 2026",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22240": "📣 DUYURU: Midterm Classes (13.04.2026 Monday @14:00)",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22240&parent=24736": "📣 DUYURU: 12 Apr 2026",
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=322236": "DuyurularForum",
@@ -8,6 +10,8 @@
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=333514": "Lab Attendances & GradesFile",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22072": "📣 DUYURU: Project Groups",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22072&parent=24760": "📣 DUYURU: 16 Apr 2026",
+        "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22354": "📣 DUYURU: Phase 2 Project Status Report",
+        "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22354&parent=24862": "📣 DUYURU: 29 Apr 2026",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22109": "📣 DUYURU: FAQ: Phase 1",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22109&parent=24715": "📣 DUYURU: 9 Apr 2026",
         "https://yulearn.yeditepe.edu.tr/mod/forum/discuss.php?d=22111": "📣 DUYURU: Phase 1 Demo",
@@ -46,7 +50,8 @@
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341048": "Lec: Monitors, Condition Variables, Readers-WritersFile",
         "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=341067": "Lab: Condition VariablesFolder",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=341113": "Lec: Memory Management -1File",
-        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=341945": "Lab: Phase 2 Tests and Report FormatFolder"
+        "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=341945": "Lab: Phase 2 Tests and Report FormatFolder",
+        "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=342172": "Project Status ReportAssignment"
     },
     "46059": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320474": "AnnouncementsForum",
