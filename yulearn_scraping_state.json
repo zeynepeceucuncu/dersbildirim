@@ -59,7 +59,9 @@
         "https://yulearn.yeditepe.edu.tr/mod/folder/view.php?id=342855": "Lab: Socket ProgrammingFolder",
         "https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=342856": "Exercise IIIAssignment",
         "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=342904": "Lec: Virtual Memory, ThrashingFile",
-        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=342905": "Lec: File System and Directory Management"
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=342905": "Lec: File System Design and Directory Management",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=344174": "Lec: Transaction Based File System Design",
+        "https://yulearn.yeditepe.edu.tr/mod/resource/view.php?id=344194": "Lec: Security and Protection (optional)File"
     },
     "46059": {
         "https://yulearn.yeditepe.edu.tr/mod/forum/view.php?id=320474": "AnnouncementsForum",
