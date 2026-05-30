@@ -103,16 +103,17 @@ def main():
     for user in USERS:
         print(f"\n--- {user['name']} için tarama başlıyor ---")
         user_changes = False
+        cookie_expired = False  # YENİ: Biletin durumunu takip eden bayrak
         user_email_body = f"Selamün Aleyküm :) {user['name']},\n\nYulearn sisteminde senin için güncellemeler var!\n\n"
 
         for course_id in user['courses']:
             print(f"Ders {course_id} kontrol ediliyor...")
             materials = get_course_materials(course_id, user['cookie'])
 
+            # Bilet bittiyse diğer dersleri taramaya gerek yok!
             if materials == "EXPIRED":
-                send_email("🚨 Yulearn Alarm: Biletin Süresi Doldu!", 
-                           f"Biletin (Cookie) süresi dolmuş. Lütfen yenile!", user['receiver'])
-                continue
+                cookie_expired = True  # Bayrağı kaldır
+                break  # For döngüsünü anında kır ve dışarı çık
             
             if materials is None: continue
 
@@ -128,10 +129,15 @@ def main():
             
             state[str(course_id)] = materials
 
-        if user_changes:
+        # DÖNGÜDEN ÇIKTIKTAN SONRA MAİL KONTROLLERİ
+        if cookie_expired:
+            # Bilet bittiyse sadece 1 tane uyarı maili at
+            send_email("🚨 Yulearn Alarm: Biletin Süresi Doldu!", 
+                       f"Biletin (Cookie) süresi dolmuş. Lütfen yenile!", user['receiver'])
+        elif user_changes:
+            # Bilet sağlamsa ve değişiklik varsa duyuru maili at
             send_email("Yulearn Yeni Materyal Duyurusu", user_email_body, user['receiver'])
         else:
-            
             print(f"{user['name']} için yeni bir şey yok.")
 
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
