@@ -56,8 +56,14 @@ def get_course_materials(course_id, user_cookie):
     url = f"https://yulearn.yeditepe.edu.tr/course/view.php?id={course_id}"
     cookies = {"MoodleSession": user_cookie}
     try:
-        response = requests.get(url, cookies=cookies, allow_redirects=False)
+        response = requests.get(url, cookies=cookies, allow_redirects=True)
+        
+        # 1. KONTROL: Sistem bizi URL olarak login sayfasına attıysa
         if "login" in response.url:
+            return "EXPIRED"
+            
+        # 2. KONTROL: URL değişmese bile sayfanın içinde Moodle giriş ibaresi (logintoken) varsa
+        if "logintoken" in response.text or "authmethod=moodle" in response.text:
             return "EXPIRED"
         
         soup = BeautifulSoup(response.text, 'html.parser')
