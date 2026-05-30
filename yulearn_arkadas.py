@@ -46,12 +46,17 @@ def get_automated_session():
         print(f"Otomasyon Hatası: {e}")
         return None
 
-def get_course_materials(session, course_id):
-    """Verilen session'ı kullanarak ders materyallerini tarar."""
+def get_course_materials(course_id, user_cookie):
     url = f"https://yulearn.yeditepe.edu.tr/course/view.php?id={course_id}"
+    cookies = {"MoodleSession": user_cookie}
     try:
-        # COOKIES parametresi yerine direkt session üzerinden gidiyoruz
-        response = session.get(url)
+        # allow_redirects=False yaparak sonsuz yönlendirme döngüsünü en başta kırıyoruz!
+        response = requests.get(url, cookies=cookies, allow_redirects=False)
+        
+        # Moodle, bilet geçersiz olduğunda 302 (Yönlendirme) kodu döndürür
+        if response.status_code == 302 or "login" in response.headers.get('Location', ''):
+            return "EXPIRED"
+            
         response.raise_for_status()
         
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -59,13 +64,31 @@ def get_course_materials(session, course_id):
         
         for a_tag in soup.find_all('a', href=True):
             href = a_tag['href']
+            
+            # 1. Klasik Dosyalar (PDF, Ödev, Slide)
             if '/mod/' in href and 'id=' in href:
                 item_name = a_tag.get_text(strip=True)
                 if item_name and "Mark as done" not in item_name:
                     items[href] = item_name
+            
+            # 2. ÖZEL DURUM: Eğer bu bir 'Duyurular' forumu ise içine girip başlıkları tara
+            if '/mod/forum/view.php' in href:
+                print(f"--> Duyuru panosuna giriliyor: {href}")
+                forum_res = requests.get(href, cookies=cookies, allow_redirects=False)
+                
+                # Duyuru linkinde de bilet kontrolü yapalım
+                if forum_res.status_code == 302:
+                    continue
+                    
+                forum_soup = BeautifulSoup(forum_res.text, 'html.parser')
+                for discussion in forum_soup.find_all('a', href=True):
+                    if 'discuss.php?d=' in discussion['href']:
+                        disc_title = "📣 DUYURU: " + discussion.get_text(strip=True)
+                        items[discussion['href']] = disc_title
+
         return items
     except Exception as e:
-        print(f"Tarama Hatası ({course_id}): {e}")
+        print(f"Hata (Ders {course_id}): {e}")
         return None
 
 def send_email(subject, body):
