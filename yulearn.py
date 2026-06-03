@@ -132,8 +132,8 @@ def main():
         # DÖNGÜDEN ÇIKTIKTAN SONRA MAİL KONTROLLERİ
         if cookie_expired:
             # Bilet bittiyse sadece 1 tane uyarı maili at
-            send_email("🚨 Yulearn Alarm: Biletin Süresi Doldu!", 
-                       f"Biletin (Cookie) süresi dolmuş. Lütfen yenile!", user['receiver'])
+            """send_email("🚨 Yulearn Alarm: Biletin Süresi Doldu!", 
+                       f"Biletin (Cookie) süresi dolmuş. Lütfen yenile!", user['receiver'])"""
         elif user_changes:
             # Bilet sağlamsa ve değişiklik varsa duyuru maili at
             send_email("Yulearn Yeni Materyal Duyurusu", user_email_body, user['receiver'])
